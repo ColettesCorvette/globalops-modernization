@@ -1,6 +1,6 @@
-# Global Operations — Remaster
+# Global Operations — Modernisation
 
-Projet de rétro-ingénierie et de remastérisation de **Global Operations** (Barking Dog Studios / Crave, 2002),
+Rétro-ingénierie et modernisation de **Global Operations** (Barking Dog Studios / Crave, 2002),
 FPS bâti sur le moteur **LithTech Talon** (génération 2.x).
 
 **État : le jeu tourne.** 2560×1440 natif, 32 bits, plein écran, Direct3D 8 traduit en Vulkan, physique stable.
