@@ -47,9 +47,35 @@ monter deux fois la même infrastructure.
 - [ ] Raw input souris
 - [ ] Textures HD
 
+## Piste communautaire — à explorer en priorité
+
+Une communauté active existe autour du jeu : Discord, correctifs de compatibilité pour systèmes modernes,
+**serveurs multijoueur toujours en ligne**, et un *Global Operations Remake Mod* (GORM) en cours.
+
+**Déduction importante :** le multijoueur exige que client et serveur partagent la même build. Si des serveurs
+tournent et que des gens y jouent, c'est qu'il existe une façon de lancer la **1.27** sur un système actuel.
+Le problème considéré comme bloquant dans ce projet est donc déjà résolu quelque part.
+
+Avant d'engager les quatre chantiers, prendre contact :
+
+- [ ] Rejoindre le Discord communautaire
+- [ ] Déterminer comment la communauté lance la 1.27
+- [ ] Vérifier ce qui existe déjà en matière de correctifs HD / HUD / input
+- [ ] Se signaler : les chantiers 1 à 4 les intéressent probablement
+- [ ] Évaluer GORM — recoupement ou complémentarité avec ce projet
+
+Ne pas refaire ce qui existe. Cette étape peut rendre plusieurs chantiers caducs, ou au contraire
+fournir des interlocuteurs compétents.
+
+## Multijoueur — reclassé
+
+Initialement écarté (DirectPlay désactivé sur Windows 10/11, GameSpy éteint depuis 2014), le multijoueur
+redevient envisageable puisque **des serveurs communautaires fonctionnent**. Prérequis : pouvoir exécuter
+la build 1.27, sujet à éclaircir avec la communauté.
+
 ## Hors périmètre
 
 - **Portage 64 bits** — sans intérêt technique ici (aucun gain de perf ou de rendu) et hors de portée
   sans le code source. Voir `CLAUDE.md`.
-- **Contournement de la protection 1.27** — non traité. Le projet reste en 1.16.
-- **Multijoueur d'époque** — DirectPlay désactivé sur Windows 10/11, GameSpy éteint depuis 2014.
+- **Développement d'un contournement de la protection SafeDisc** — non traité dans ce projet.
+  Le jeu tourne en 1.16 ; pour la 1.27, voir la piste communautaire ci-dessus.
