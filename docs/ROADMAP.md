@@ -76,6 +76,6 @@ la build 1.27, sujet à éclaircir avec la communauté.
 ## Hors périmètre
 
 - **Portage 64 bits** — sans intérêt technique ici (aucun gain de perf ou de rendu) et hors de portée
-  sans le code source. Voir `CLAUDE.md`.
+  sans le code source.
 - **Développement d'un contournement de la protection SafeDisc** — non traité dans ce projet.
   Le jeu tourne en 1.16 ; pour la 1.27, voir la piste communautaire ci-dessus.

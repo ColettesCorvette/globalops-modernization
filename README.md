@@ -39,7 +39,6 @@ cd "C:/Games/GlobalOps" && ./globalops.exe
 
 ```
 README.md                    ce fichier
-CLAUDE.md                    guide technique complet (contexte pour Claude Code)
 docs/
   ROADMAP.md                 les 4 chantiers, priorités et dépendances
   01-diagnostic.md           historique du diagnostic et fausses pistes
