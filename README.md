@@ -22,7 +22,7 @@ cd "C:/Games/GlobalOps" && ./globalops.exe
 | Exécutable | sans SafeDisc, ABI cohérente avec les DLL |
 | Rendu | DXVK 3.1 — D3D8 → Vulkan |
 | Affichage | 2560×1440 · **32 bits** · plein écran |
-| Framerate | plafonné à **60** (obligatoire, voir plus bas) |
+| Framerate | plafonné à **60-120** (obligatoire, voir plus bas) |
 | Profil actif | `player` (défini dans `autoexec.cfg`) |
 
 ### Trois règles à ne jamais enfreindre
