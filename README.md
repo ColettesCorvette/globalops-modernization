@@ -75,3 +75,28 @@ Détail complet et fausses pistes : [`docs/01-diagnostic.md`](docs/01-diagnostic
 Le jeu tourne en **1.16** (version CD d'origine), sans les correctifs de gameplay et d'équilibrage des
 patchs officiels 1.2 et 2.0 — ces patchs conservent SafeDisc, et aucun exécutable 1.27 exploitable n'est
 disponible. Sans conséquence en solo ; bloquant pour le multijoueur d'époque.
+
+---
+
+## Licence
+
+Ce dépôt est publié sous licence **MIT** — voir [`LICENSE`](LICENSE).
+
+Elle couvre **uniquement** ce que contient ce dépôt : documentation, fichiers de configuration et
+outils d'analyse. Elle ne s'étend à aucun élément du jeu.
+
+Les dépendances externes (DXVK, Ultimate ASI Loader, RezExtract, DTX-Meta-Transfer…) restent soumises
+à leurs licences respectives, à vérifier individuellement avant toute intégration ou redistribution.
+
+## Avertissement
+
+Ce projet **n'est affilié à aucun ayant droit et n'est approuvé par aucun d'eux**.
+
+- Il ne contient **aucun asset, aucune ressource et aucun binaire du jeu**.
+- Il ne distribue ni ne facilite le contournement d'aucune mesure de protection.
+- **Une copie légitime du jeu est nécessaire** pour utiliser ces outils et cette documentation.
+- « Global Operations » et les marques associées appartiennent à leurs détenteurs respectifs.
+  Barking Dog Studios, Crave Entertainment et Electronic Arts sont cités à titre documentaire.
+
+Le contenu de ce dépôt relève de l'analyse technique et de la préservation logicielle, à des fins
+d'interopérabilité et d'usage personnel.
