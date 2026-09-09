@@ -1,0 +1,35 @@
+# ---- Contenu propriétaire du jeu : ne JAMAIS versionner ----
+Global Operations/
+Global-Operations_Misc_Win_EN_Tools/
+Global-Operations_Win_EN_ISO-Version/
+*.iso
+*.zip
+*.exe
+*.dll
+*.lto
+*.rez
+*.cab
+*.hdr
+*.bik
+*.sys
+*.pdf
+*.hlp
+*.dat
+*.dtx
+*.abc
+
+# ---- Secrets ----
+*CD-Key*
+*cdkey*
+*.key
+
+# ---- Divers ----
+*.bak
+*.off
+*.log
+scratchpad/
+
+# ---- Installations de jeu presentes dans l arborescence ----
+GO/
+GO116/
+Games/
