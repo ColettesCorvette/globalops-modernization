@@ -4,6 +4,7 @@ Rétro-ingénierie et modernisation de **Global Operations** (Barking Dog Studio
 FPS bâti sur le moteur **LithTech Talon** (génération 2.x).
 
 **État : le jeu tourne.** 2560×1440 natif, 32 bits, plein écran, Direct3D 8 traduit en Vulkan, physique stable.
+
 ---
 
 ## Démarrage rapide
