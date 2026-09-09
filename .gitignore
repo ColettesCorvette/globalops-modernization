@@ -31,7 +31,7 @@ scratchpad/
 
 # ---- Installations de jeu presentes dans l arborescence ----
 GO/
-GO116/
+GO116/          # dossiers d installation locaux
 Games/
 notes.md
 

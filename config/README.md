@@ -1,6 +1,6 @@
 # Configurations validées
 
-À copier dans la racine de l'installation (`F:\Games\GO116\`).
+À copier dans la racine de l'installation (`C:\Games\GlobalOps\`).
 
 ## `dxvk.conf`
 Plafond de framerate et compteur FPS. **Jamais réécrit par le jeu** — c'est le verrou fiable.

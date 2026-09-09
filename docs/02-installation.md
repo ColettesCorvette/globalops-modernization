@@ -16,7 +16,7 @@ Procédure complète pour reconstruire une installation fonctionnelle depuis zé
 ### 1. Installer le jeu — sans aucun patch
 
 ```
-Global Operations/Setup/Setup.exe  →  cible : F:\Games\GO116
+Global Operations/Setup/Setup.exe  →  cible : C:\Games\GlobalOps
 ```
 
 **Ne pas appliquer les patchs 1.2 ou 2.0.** Ils font passer l'installation en build 1.27, incompatible
@@ -28,13 +28,13 @@ Résultat attendu : `globalops.exe`, `Globalops/cshell.dll`, `Globalops/object.l
 ### 2. Remplacer l'exécutable
 
 ```
-Global Operations/Crack/globalops.exe  →  F:\Games\GO116\globalops.exe
+Global Operations/Crack/globalops.exe  →  C:\Games\GlobalOps\globalops.exe
 ```
 
 Build 1.16, donc ABI cohérente avec les DLL installées. Vérifier l'absence de SafeDisc :
 
 ```bash
-python tools/pe.py "F:/Games/GO116/globalops.exe"
+python tools/pe.py "C:/Games/GlobalOps/globalops.exe"
 ```
 
 Les sections doivent être `.text .rdata .data .exc .rsrc` — **sans** `stxt774` ni `stxt371`.
@@ -44,8 +44,8 @@ Les sections doivent être `.text .rdata .data .exc .rsrc` — **sans** `stxt774
 DXVK 3.1 ou supérieur, archive officielle, répertoire **`x32`** (le jeu est 32 bits) :
 
 ```
-dxvk-<ver>/x32/d3d8.dll  →  F:\Games\GO116\d3d8.dll
-dxvk-<ver>/x32/d3d9.dll  →  F:\Games\GO116\d3d9.dll
+dxvk-<ver>/x32/d3d8.dll  →  C:\Games\GlobalOps\d3d8.dll
+dxvk-<ver>/x32/d3d9.dll  →  C:\Games\GlobalOps\d3d9.dll
 ```
 
 `d3d9.dll` est **obligatoire** : DXVK implémente D3D8 par-dessus son D3D9. Pour désactiver DXVK,
@@ -53,11 +53,11 @@ renommer ou supprimer les deux fichiers.
 
 ### 4. Déposer les configurations
 
-Copier `config/dxvk.conf` et `config/autoexec.cfg` dans `F:\Games\GO116\`.
+Copier `config/dxvk.conf` et `config/autoexec.cfg` dans `C:\Games\GlobalOps\`.
 
 ### 5. Régler le profil
 
-Jeu fermé, dans `F:\Games\GO116\Globalops\profile\<nom>.cfg` :
+Jeu fermé, dans `C:\Games\GlobalOps\Globalops\profile\<nom>.cfg` :
 
 ```
 "windowed" "0"
@@ -75,7 +75,7 @@ S'assurer que `autoexec.cfg` désigne bien ce profil : `"profilename" "<nom>"`.
 ## Vérification
 
 ```bash
-cd "F:/Games/GO116" && ./globalops.exe
+cd "C:/Games/GlobalOps" && ./globalops.exe
 ```
 
 Attendu : menu complet avec onglets Single Player / Multiplayer, dialogues fonctionnels, compteur FPS
@@ -84,8 +84,8 @@ DXVK en surimpression stabilisé à 60.
 En cas d'échec, contrôler dans l'ordre :
 
 1. `bitdepth` vaut bien 32 dans le profil **réellement chargé** (celui désigné par `autoexec.cfg`) ;
-2. `F:\Games\GO116\<exe>_d3d9.log` — cherche `Buffer size:` pour la résolution effective et les lignes `err:` ;
-3. `F:\Games\GO116\error.log` — vide signifie « aucune erreur moteur », pas « tout va bien » ;
+2. `C:\Games\GlobalOps\<exe>_d3d9.log` — cherche `Buffer size:` pour la résolution effective et les lignes `err:` ;
+3. `C:\Games\GlobalOps\error.log` — vide signifie « aucune erreur moteur », pas « tout va bien » ;
 4. versions de fichier homogènes (toutes en 1.16).
 
 ## Arguments de ligne de commande utiles

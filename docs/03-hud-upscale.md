@@ -10,8 +10,8 @@
 Le jeu génère un fichier de layout **par résolution** dans `Globalops/profile/` :
 
 ```
-bite_640x480.hud
-bite_2560x1440.hud
+player_640x480.hud
+player_2560x1440.hud
 ```
 
 Son contenu utilise des coordonnées **normalisées** entre 0.0 et 1.0 :

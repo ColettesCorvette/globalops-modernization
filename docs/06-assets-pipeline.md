@@ -14,7 +14,7 @@ C'est le premier chantier à traiter : coût faible, et sans lui rien de visuel 
 ## Les archives
 
 ```
-F:\Games\GO116\
+C:\Games\GlobalOps\
   globalops.rez    ~490 Mo   contenu principal
   interface.rez    ~3 Mo     menus, HUD, polices    ← cible du chantier 1
   models.rez       ~1,3 Mo

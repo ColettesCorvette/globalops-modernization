@@ -10,18 +10,21 @@ La phase « faire fonctionner » est terminée ; la phase « améliorer » comme
 
 ## Démarrage rapide
 
+> Les chemins de cette documentation utilisent `C:\Games\GlobalOps` comme dossier d'installation
+> et `player` comme nom de profil. Adapter aux siens.
+
 ```bash
-cd "F:/Games/GO116" && ./globalops.exe
+cd "C:/Games/GlobalOps" && ./globalops.exe
 ```
 
 | Élément | Valeur |
 |---|---|
-| Installation | `F:\Games\GO116` — build **1.16** homogène |
+| Installation | `C:\Games\GlobalOps` — build **1.16** homogène |
 | Exécutable | sans SafeDisc, ABI cohérente avec les DLL |
 | Rendu | DXVK 3.1 — D3D8 → Vulkan |
 | Affichage | 2560×1440 · **32 bits** · plein écran |
 | Framerate | plafonné à **60** (obligatoire, voir plus bas) |
-| Profil actif | `bite` (défini dans `autoexec.cfg`) |
+| Profil actif | `player` (défini dans `autoexec.cfg`) |
 
 ### Trois règles à ne jamais enfreindre
 

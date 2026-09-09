@@ -4,7 +4,7 @@
 En-têtes PE : architecture, drapeaux, **table des sections**.
 
 ```bash
-python tools/pe.py "F:/Games/GO116/globalops.exe"
+python tools/pe.py "C:/Games/GlobalOps/globalops.exe"
 ```
 
 Sert principalement à détecter SafeDisc : la présence des sections `stxt774` et `stxt371` signale un
@@ -14,7 +14,7 @@ exécutable protégé, inutilisable sur Windows 10+.
 Table d'imports réelle (et non les chaînes du binaire, trompeuses).
 
 ```bash
-python tools/imp.py "F:/Games/GO116/globalops.exe"
+python tools/imp.py "C:/Games/GlobalOps/globalops.exe"
 ```
 
 A servi à établir que `dev.exe` et `globalops.exe` sont le même moteur, et que `cshell.dll` / `cres.dll` /
