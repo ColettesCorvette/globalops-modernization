@@ -39,7 +39,7 @@ monter deux fois la même infrastructure.
 
 - [x] Jeu fonctionnel en résolution native
 - [x] Physique stable (plafond FPS)
-- [ ] Seuil FPS optimal déterminé (monter par paliers : 100, 120, 144)
+- [x] Seuil FPS optimal déterminé : 60-120 fps correspond a la plage idéale
 - [ ] Extraction des `.rez` opérationnelle
 - [ ] Test décisif d'échelle du HUD
 - [ ] Ultimate ASI Loader en place et plugin vide qui charge
