@@ -4,24 +4,22 @@ Rétro-ingénierie et modernisation de **Global Operations** (Barking Dog Studio
 FPS bâti sur le moteur **LithTech Talon** (génération 2.x).
 
 **État : le jeu tourne.** 2560×1440 natif, 32 bits, plein écran, Direct3D 8 traduit en Vulkan, physique stable.
-La phase « faire fonctionner » est terminée ; la phase « améliorer » commence.
-
 ---
 
 ## Démarrage rapide
 
 ```bash
-cd "F:/Games/GO116" && ./globalops.exe
+cd "path/to/GO" && ./globalops.exe
 ```
 
 | Élément | Valeur |
 |---|---|
-| Installation | `F:\Games\GO116` — build **1.16** homogène |
+| Installation | `\path\to\GO` — build **1.16** homogène |
 | Exécutable | sans SafeDisc, ABI cohérente avec les DLL |
 | Rendu | DXVK 3.1 — D3D8 → Vulkan |
 | Affichage | 2560×1440 · **32 bits** · plein écran |
-| Framerate | plafonné à **60** (obligatoire, voir plus bas) |
-| Profil actif | `bite` (défini dans `autoexec.cfg`) |
+| Framerate | plafonné à **60-120** (obligatoire, voir plus bas) |
+| Profil actif | défini dans `autoexec.cfg` |
 
 ### Trois règles à ne jamais enfreindre
 
